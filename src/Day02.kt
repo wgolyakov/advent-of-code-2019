@@ -7,7 +7,7 @@ fun main() {
 			when (memory[i]) {
 				1 -> memory[memory[i + 3]] = memory[memory[i + 1]] + memory[memory[i + 2]]
 				2 -> memory[memory[i + 3]] = memory[memory[i + 1]] * memory[memory[i + 2]]
-				9 -> return
+				99 -> return
 			}
 		}
 	}
